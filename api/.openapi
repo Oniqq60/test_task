@@ -1,0 +1,9 @@
+output: gen/task/api.gen.go
+package: tasks
+generate:
+  - types
+  - echo-server
+  - spec
+  - embedded-spec
+include-tags:
+  - tasks
